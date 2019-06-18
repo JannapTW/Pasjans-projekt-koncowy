@@ -82,6 +82,7 @@ int main()
         // Update the window
         win.display();
     }
+    ///Notatki
 
 
 

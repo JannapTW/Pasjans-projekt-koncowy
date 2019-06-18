@@ -1,0 +1,5 @@
+"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\janna\OneDrive\Dokumenty\C++\Programowanie Obiektowe - 2 Semestr\C-Lion\Projects\Pasjans projekt koncowy"
+-- Found SFML 2.5.1 in C:/Users/janna/OneDrive/Dokumenty/SFML-2.5.1/lib/cmake/SFML
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/cmake-build-debug

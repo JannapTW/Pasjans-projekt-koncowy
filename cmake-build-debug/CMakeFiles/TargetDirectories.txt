@@ -1,0 +1,3 @@
+C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/cmake-build-debug/CMakeFiles/Pasjans_projekt_koncowy.dir
+C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/cmake-build-debug/CMakeFiles/rebuild_cache.dir

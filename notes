@@ -1,0 +1,39 @@
+Pasjans wykonany z wykorzystaniem dziedziczenia i możliwie polimorfizmu:
+
+Klasy które muszę mieć:
+1. Logika programu (Raczej pracuję na samej planszy, trochę jak w saperze)
+1.a Klasa card do skorzystania z dziedziczenia
+2. Wygląd programu przed rozpoczęciem gry (INTRO), wygląd w trakcie gry (GAME),
+czy potrzebuję outro??? może wystarczy komunikat no more moves/you won.
+3. Sterowanie do każdej części wyglądu. INTRO oraz proste zjawiska będą łatwe, ale jak zrobić DRAG&DROP? Pewnie po
+prostu click2click
+4. Klasa łącząca obsługę elementów (solitaireManager), by nie wpisywać w pętle SFML zbyt dużo funkcji.
+
+A) Moja plansza musi:
+- Mieścić całą talię 52 kart
+- Mieć 4 miejsca na segregację
+- 7 miejsc na wykładanie i przemieszczanie kart
+- Korzystać z tablicy jako talii najpewniej talia[52] (JAK INTELIGENTNIE ROZPOZNAC KOLORY/SYMBOLE BY NIE WYPISYWAC
+WSZYSTKIM MOZLIWOSCI(po prostu ? [chociaz petla nie jest zlym pomyslem])
+- Pozwalać na ustawianie stosów kart w kolejności malejącej
+- Pozwalać na ustawianie stosów segregacji w kolejności rosnącej
+- Zakrywać karty nieodkryte i odkrywac je w przypadku braku kart pod nimi zarówno na stosach jak i w talii
+(funkcja do nadania stanu zakrycia/odkrycia)
+- Pozwalac na przeniesienie kart (najpierw ClickToClick, potem DRAG&DROP, ale ich logika dalej taka sama)
+
+B) Moja plansza będzie wyglądać tak:
+
+[TALIA] [PLANSZA 1] [PLANSZA 2] [PLANSZA 3] [PLANSZA 4] [PLANSZA 5] [PLANSZA 6] [PLANSZA 7]  [STOS 1]
+[CURRENT_CARD]                                                                               [STOS 3]
+                                                                                             [STOS 3]
+                                                                                             [STOS 4]
+
+C) Praktycznie wszystkim steruje myszą. (Spacją mogę zaczynać grę)
+
+D) Nie zapomnij o destruktorze i delete deck[]
+
+E) Rozmiar karty to 74x98
+
+PROBLEMY:
+-Jak wykrywać każdą kartę MOBILNIE?
+-Jak zapamiętać wybór karty

@@ -6,6 +6,8 @@ CMakeFiles/Pasjans_projekt_koncowy.dir/boardController.cpp.obj
  C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/boardController.h
  C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/boardView.h
  C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/card.h
+ C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/plansza.h
+ C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/segregacja.h
  C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/solitaireBoard.h
  C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/talia.h
  C:/Users/janna/OneDrive/Dokumenty/SFML-2.5.1/include/SFML/Config.hpp
@@ -86,6 +88,8 @@ CMakeFiles/Pasjans_projekt_koncowy.dir/boardView.cpp.obj
  C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/boardView.cpp
  C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/boardView.h
  C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/card.h
+ C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/plansza.h
+ C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/segregacja.h
  C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/solitaireBoard.h
  C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/talia.h
  C:/Users/janna/OneDrive/Dokumenty/SFML-2.5.1/include/SFML/Config.hpp
@@ -170,6 +174,8 @@ CMakeFiles/Pasjans_projekt_koncowy.dir/introController.cpp.obj
  C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/introController.cpp
  C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/introController.h
  C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/introView.h
+ C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/plansza.h
+ C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/segregacja.h
  C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/solitaireBoard.h
  C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/talia.h
  C:/Users/janna/OneDrive/Dokumenty/SFML-2.5.1/include/SFML/Config.hpp
@@ -215,6 +221,8 @@ CMakeFiles/Pasjans_projekt_koncowy.dir/introView.cpp.obj
  C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/card.h
  C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/introView.cpp
  C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/introView.h
+ C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/plansza.h
+ C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/segregacja.h
  C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/solitaireBoard.h
  C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/talia.h
  C:/Users/janna/OneDrive/Dokumenty/SFML-2.5.1/include/SFML/Config.hpp
@@ -256,6 +264,8 @@ CMakeFiles/Pasjans_projekt_koncowy.dir/main.cpp.obj
  C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/introController.h
  C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/introView.h
  C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/main.cpp
+ C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/plansza.h
+ C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/segregacja.h
  C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/solitaireBoard.h
  C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/solitaireManager.h
  C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/talia.h
@@ -333,8 +343,18 @@ CMakeFiles/Pasjans_projekt_koncowy.dir/main.cpp.obj
  C:/Users/janna/OneDrive/Dokumenty/SFML-2.5.1/include/SFML/Window/Window.hpp
  C:/Users/janna/OneDrive/Dokumenty/SFML-2.5.1/include/SFML/Window/WindowHandle.hpp
  C:/Users/janna/OneDrive/Dokumenty/SFML-2.5.1/include/SFML/Window/WindowStyle.hpp
+CMakeFiles/Pasjans_projekt_koncowy.dir/plansza.cpp.obj
+ C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/card.h
+ C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/plansza.cpp
+ C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/plansza.h
+CMakeFiles/Pasjans_projekt_koncowy.dir/segregacja.cpp.obj
+ C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/card.h
+ C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/segregacja.cpp
+ C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/segregacja.h
 CMakeFiles/Pasjans_projekt_koncowy.dir/solitaireBoard.cpp.obj
  C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/card.h
+ C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/plansza.h
+ C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/segregacja.h
  C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/solitaireBoard.cpp
  C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/solitaireBoard.h
  C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/talia.h
@@ -344,6 +364,8 @@ CMakeFiles/Pasjans_projekt_koncowy.dir/solitaireManager.cpp.obj
  C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/card.h
  C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/introController.h
  C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/introView.h
+ C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/plansza.h
+ C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/segregacja.h
  C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/solitaireBoard.h
  C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/solitaireManager.cpp
  C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/solitaireManager.h

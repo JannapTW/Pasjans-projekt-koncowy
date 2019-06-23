@@ -5,6 +5,8 @@ CMakeFiles/Pasjans_projekt_koncowy.dir/boardController.cpp.obj: ../boardControll
 CMakeFiles/Pasjans_projekt_koncowy.dir/boardController.cpp.obj: ../boardController.h
 CMakeFiles/Pasjans_projekt_koncowy.dir/boardController.cpp.obj: ../boardView.h
 CMakeFiles/Pasjans_projekt_koncowy.dir/boardController.cpp.obj: ../card.h
+CMakeFiles/Pasjans_projekt_koncowy.dir/boardController.cpp.obj: ../plansza.h
+CMakeFiles/Pasjans_projekt_koncowy.dir/boardController.cpp.obj: ../segregacja.h
 CMakeFiles/Pasjans_projekt_koncowy.dir/boardController.cpp.obj: ../solitaireBoard.h
 CMakeFiles/Pasjans_projekt_koncowy.dir/boardController.cpp.obj: ../talia.h
 CMakeFiles/Pasjans_projekt_koncowy.dir/boardController.cpp.obj: C:/Users/janna/OneDrive/Dokumenty/SFML-2.5.1/include/SFML/Config.hpp
@@ -85,6 +87,8 @@ CMakeFiles/Pasjans_projekt_koncowy.dir/boardController.cpp.obj: C:/Users/janna/O
 CMakeFiles/Pasjans_projekt_koncowy.dir/boardView.cpp.obj: ../boardView.cpp
 CMakeFiles/Pasjans_projekt_koncowy.dir/boardView.cpp.obj: ../boardView.h
 CMakeFiles/Pasjans_projekt_koncowy.dir/boardView.cpp.obj: ../card.h
+CMakeFiles/Pasjans_projekt_koncowy.dir/boardView.cpp.obj: ../plansza.h
+CMakeFiles/Pasjans_projekt_koncowy.dir/boardView.cpp.obj: ../segregacja.h
 CMakeFiles/Pasjans_projekt_koncowy.dir/boardView.cpp.obj: ../solitaireBoard.h
 CMakeFiles/Pasjans_projekt_koncowy.dir/boardView.cpp.obj: ../talia.h
 CMakeFiles/Pasjans_projekt_koncowy.dir/boardView.cpp.obj: C:/Users/janna/OneDrive/Dokumenty/SFML-2.5.1/include/SFML/Config.hpp
@@ -169,6 +173,8 @@ CMakeFiles/Pasjans_projekt_koncowy.dir/introController.cpp.obj: ../card.h
 CMakeFiles/Pasjans_projekt_koncowy.dir/introController.cpp.obj: ../introController.cpp
 CMakeFiles/Pasjans_projekt_koncowy.dir/introController.cpp.obj: ../introController.h
 CMakeFiles/Pasjans_projekt_koncowy.dir/introController.cpp.obj: ../introView.h
+CMakeFiles/Pasjans_projekt_koncowy.dir/introController.cpp.obj: ../plansza.h
+CMakeFiles/Pasjans_projekt_koncowy.dir/introController.cpp.obj: ../segregacja.h
 CMakeFiles/Pasjans_projekt_koncowy.dir/introController.cpp.obj: ../solitaireBoard.h
 CMakeFiles/Pasjans_projekt_koncowy.dir/introController.cpp.obj: ../talia.h
 CMakeFiles/Pasjans_projekt_koncowy.dir/introController.cpp.obj: C:/Users/janna/OneDrive/Dokumenty/SFML-2.5.1/include/SFML/Config.hpp
@@ -214,6 +220,8 @@ CMakeFiles/Pasjans_projekt_koncowy.dir/introController.cpp.obj: C:/Users/janna/O
 CMakeFiles/Pasjans_projekt_koncowy.dir/introView.cpp.obj: ../card.h
 CMakeFiles/Pasjans_projekt_koncowy.dir/introView.cpp.obj: ../introView.cpp
 CMakeFiles/Pasjans_projekt_koncowy.dir/introView.cpp.obj: ../introView.h
+CMakeFiles/Pasjans_projekt_koncowy.dir/introView.cpp.obj: ../plansza.h
+CMakeFiles/Pasjans_projekt_koncowy.dir/introView.cpp.obj: ../segregacja.h
 CMakeFiles/Pasjans_projekt_koncowy.dir/introView.cpp.obj: ../solitaireBoard.h
 CMakeFiles/Pasjans_projekt_koncowy.dir/introView.cpp.obj: ../talia.h
 CMakeFiles/Pasjans_projekt_koncowy.dir/introView.cpp.obj: C:/Users/janna/OneDrive/Dokumenty/SFML-2.5.1/include/SFML/Config.hpp
@@ -255,6 +263,8 @@ CMakeFiles/Pasjans_projekt_koncowy.dir/main.cpp.obj: ../card.h
 CMakeFiles/Pasjans_projekt_koncowy.dir/main.cpp.obj: ../introController.h
 CMakeFiles/Pasjans_projekt_koncowy.dir/main.cpp.obj: ../introView.h
 CMakeFiles/Pasjans_projekt_koncowy.dir/main.cpp.obj: ../main.cpp
+CMakeFiles/Pasjans_projekt_koncowy.dir/main.cpp.obj: ../plansza.h
+CMakeFiles/Pasjans_projekt_koncowy.dir/main.cpp.obj: ../segregacja.h
 CMakeFiles/Pasjans_projekt_koncowy.dir/main.cpp.obj: ../solitaireBoard.h
 CMakeFiles/Pasjans_projekt_koncowy.dir/main.cpp.obj: ../solitaireManager.h
 CMakeFiles/Pasjans_projekt_koncowy.dir/main.cpp.obj: ../talia.h
@@ -333,7 +343,17 @@ CMakeFiles/Pasjans_projekt_koncowy.dir/main.cpp.obj: C:/Users/janna/OneDrive/Dok
 CMakeFiles/Pasjans_projekt_koncowy.dir/main.cpp.obj: C:/Users/janna/OneDrive/Dokumenty/SFML-2.5.1/include/SFML/Window/WindowHandle.hpp
 CMakeFiles/Pasjans_projekt_koncowy.dir/main.cpp.obj: C:/Users/janna/OneDrive/Dokumenty/SFML-2.5.1/include/SFML/Window/WindowStyle.hpp
 
+CMakeFiles/Pasjans_projekt_koncowy.dir/plansza.cpp.obj: ../card.h
+CMakeFiles/Pasjans_projekt_koncowy.dir/plansza.cpp.obj: ../plansza.cpp
+CMakeFiles/Pasjans_projekt_koncowy.dir/plansza.cpp.obj: ../plansza.h
+
+CMakeFiles/Pasjans_projekt_koncowy.dir/segregacja.cpp.obj: ../card.h
+CMakeFiles/Pasjans_projekt_koncowy.dir/segregacja.cpp.obj: ../segregacja.cpp
+CMakeFiles/Pasjans_projekt_koncowy.dir/segregacja.cpp.obj: ../segregacja.h
+
 CMakeFiles/Pasjans_projekt_koncowy.dir/solitaireBoard.cpp.obj: ../card.h
+CMakeFiles/Pasjans_projekt_koncowy.dir/solitaireBoard.cpp.obj: ../plansza.h
+CMakeFiles/Pasjans_projekt_koncowy.dir/solitaireBoard.cpp.obj: ../segregacja.h
 CMakeFiles/Pasjans_projekt_koncowy.dir/solitaireBoard.cpp.obj: ../solitaireBoard.cpp
 CMakeFiles/Pasjans_projekt_koncowy.dir/solitaireBoard.cpp.obj: ../solitaireBoard.h
 CMakeFiles/Pasjans_projekt_koncowy.dir/solitaireBoard.cpp.obj: ../talia.h
@@ -343,6 +363,8 @@ CMakeFiles/Pasjans_projekt_koncowy.dir/solitaireManager.cpp.obj: ../boardView.h
 CMakeFiles/Pasjans_projekt_koncowy.dir/solitaireManager.cpp.obj: ../card.h
 CMakeFiles/Pasjans_projekt_koncowy.dir/solitaireManager.cpp.obj: ../introController.h
 CMakeFiles/Pasjans_projekt_koncowy.dir/solitaireManager.cpp.obj: ../introView.h
+CMakeFiles/Pasjans_projekt_koncowy.dir/solitaireManager.cpp.obj: ../plansza.h
+CMakeFiles/Pasjans_projekt_koncowy.dir/solitaireManager.cpp.obj: ../segregacja.h
 CMakeFiles/Pasjans_projekt_koncowy.dir/solitaireManager.cpp.obj: ../solitaireBoard.h
 CMakeFiles/Pasjans_projekt_koncowy.dir/solitaireManager.cpp.obj: ../solitaireManager.cpp
 CMakeFiles/Pasjans_projekt_koncowy.dir/solitaireManager.cpp.obj: ../solitaireManager.h

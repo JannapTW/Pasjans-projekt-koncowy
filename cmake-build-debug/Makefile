@@ -284,6 +284,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\Pasjans_projekt_koncowy.dir\build.make CMakeFiles/Pasjans_projekt_koncowy.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+plansza.obj: plansza.cpp.obj
+
+.PHONY : plansza.obj
+
+# target to build an object file
+plansza.cpp.obj:
+	$(MAKE) -f CMakeFiles\Pasjans_projekt_koncowy.dir\build.make CMakeFiles/Pasjans_projekt_koncowy.dir/plansza.cpp.obj
+.PHONY : plansza.cpp.obj
+
+plansza.i: plansza.cpp.i
+
+.PHONY : plansza.i
+
+# target to preprocess a source file
+plansza.cpp.i:
+	$(MAKE) -f CMakeFiles\Pasjans_projekt_koncowy.dir\build.make CMakeFiles/Pasjans_projekt_koncowy.dir/plansza.cpp.i
+.PHONY : plansza.cpp.i
+
+plansza.s: plansza.cpp.s
+
+.PHONY : plansza.s
+
+# target to generate assembly for a file
+plansza.cpp.s:
+	$(MAKE) -f CMakeFiles\Pasjans_projekt_koncowy.dir\build.make CMakeFiles/Pasjans_projekt_koncowy.dir/plansza.cpp.s
+.PHONY : plansza.cpp.s
+
+segregacja.obj: segregacja.cpp.obj
+
+.PHONY : segregacja.obj
+
+# target to build an object file
+segregacja.cpp.obj:
+	$(MAKE) -f CMakeFiles\Pasjans_projekt_koncowy.dir\build.make CMakeFiles/Pasjans_projekt_koncowy.dir/segregacja.cpp.obj
+.PHONY : segregacja.cpp.obj
+
+segregacja.i: segregacja.cpp.i
+
+.PHONY : segregacja.i
+
+# target to preprocess a source file
+segregacja.cpp.i:
+	$(MAKE) -f CMakeFiles\Pasjans_projekt_koncowy.dir\build.make CMakeFiles/Pasjans_projekt_koncowy.dir/segregacja.cpp.i
+.PHONY : segregacja.cpp.i
+
+segregacja.s: segregacja.cpp.s
+
+.PHONY : segregacja.s
+
+# target to generate assembly for a file
+segregacja.cpp.s:
+	$(MAKE) -f CMakeFiles\Pasjans_projekt_koncowy.dir\build.make CMakeFiles/Pasjans_projekt_koncowy.dir/segregacja.cpp.s
+.PHONY : segregacja.cpp.s
+
 solitaireBoard.obj: solitaireBoard.cpp.obj
 
 .PHONY : solitaireBoard.obj
@@ -392,6 +446,12 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... plansza.obj
+	@echo ... plansza.i
+	@echo ... plansza.s
+	@echo ... segregacja.obj
+	@echo ... segregacja.i
+	@echo ... segregacja.s
 	@echo ... solitaireBoard.obj
 	@echo ... solitaireBoard.i
 	@echo ... solitaireBoard.s

@@ -182,6 +182,34 @@ CMakeFiles/Pasjans_projekt_koncowy.dir/solitaireBoard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pasjans_projekt_koncowy.dir/solitaireBoard.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\janna\OneDrive\Dokumenty\C++\Programowanie Obiektowe - 2 Semestr\C-Lion\Projects\Pasjans projekt koncowy\solitaireBoard.cpp" -o CMakeFiles\Pasjans_projekt_koncowy.dir\solitaireBoard.cpp.s
 
+CMakeFiles/Pasjans_projekt_koncowy.dir/segregacja.cpp.obj: CMakeFiles/Pasjans_projekt_koncowy.dir/flags.make
+CMakeFiles/Pasjans_projekt_koncowy.dir/segregacja.cpp.obj: CMakeFiles/Pasjans_projekt_koncowy.dir/includes_CXX.rsp
+CMakeFiles/Pasjans_projekt_koncowy.dir/segregacja.cpp.obj: ../segregacja.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\janna\OneDrive\Dokumenty\C++\Programowanie Obiektowe - 2 Semestr\C-Lion\Projects\Pasjans projekt koncowy\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Pasjans_projekt_koncowy.dir/segregacja.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pasjans_projekt_koncowy.dir\segregacja.cpp.obj -c "C:\Users\janna\OneDrive\Dokumenty\C++\Programowanie Obiektowe - 2 Semestr\C-Lion\Projects\Pasjans projekt koncowy\segregacja.cpp"
+
+CMakeFiles/Pasjans_projekt_koncowy.dir/segregacja.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pasjans_projekt_koncowy.dir/segregacja.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\janna\OneDrive\Dokumenty\C++\Programowanie Obiektowe - 2 Semestr\C-Lion\Projects\Pasjans projekt koncowy\segregacja.cpp" > CMakeFiles\Pasjans_projekt_koncowy.dir\segregacja.cpp.i
+
+CMakeFiles/Pasjans_projekt_koncowy.dir/segregacja.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pasjans_projekt_koncowy.dir/segregacja.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\janna\OneDrive\Dokumenty\C++\Programowanie Obiektowe - 2 Semestr\C-Lion\Projects\Pasjans projekt koncowy\segregacja.cpp" -o CMakeFiles\Pasjans_projekt_koncowy.dir\segregacja.cpp.s
+
+CMakeFiles/Pasjans_projekt_koncowy.dir/plansza.cpp.obj: CMakeFiles/Pasjans_projekt_koncowy.dir/flags.make
+CMakeFiles/Pasjans_projekt_koncowy.dir/plansza.cpp.obj: CMakeFiles/Pasjans_projekt_koncowy.dir/includes_CXX.rsp
+CMakeFiles/Pasjans_projekt_koncowy.dir/plansza.cpp.obj: ../plansza.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\janna\OneDrive\Dokumenty\C++\Programowanie Obiektowe - 2 Semestr\C-Lion\Projects\Pasjans projekt koncowy\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Pasjans_projekt_koncowy.dir/plansza.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pasjans_projekt_koncowy.dir\plansza.cpp.obj -c "C:\Users\janna\OneDrive\Dokumenty\C++\Programowanie Obiektowe - 2 Semestr\C-Lion\Projects\Pasjans projekt koncowy\plansza.cpp"
+
+CMakeFiles/Pasjans_projekt_koncowy.dir/plansza.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pasjans_projekt_koncowy.dir/plansza.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\janna\OneDrive\Dokumenty\C++\Programowanie Obiektowe - 2 Semestr\C-Lion\Projects\Pasjans projekt koncowy\plansza.cpp" > CMakeFiles\Pasjans_projekt_koncowy.dir\plansza.cpp.i
+
+CMakeFiles/Pasjans_projekt_koncowy.dir/plansza.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pasjans_projekt_koncowy.dir/plansza.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\janna\OneDrive\Dokumenty\C++\Programowanie Obiektowe - 2 Semestr\C-Lion\Projects\Pasjans projekt koncowy\plansza.cpp" -o CMakeFiles\Pasjans_projekt_koncowy.dir\plansza.cpp.s
+
 # Object files for target Pasjans_projekt_koncowy
 Pasjans_projekt_koncowy_OBJECTS = \
 "CMakeFiles/Pasjans_projekt_koncowy.dir/main.cpp.obj" \
@@ -192,7 +220,9 @@ Pasjans_projekt_koncowy_OBJECTS = \
 "CMakeFiles/Pasjans_projekt_koncowy.dir/introController.cpp.obj" \
 "CMakeFiles/Pasjans_projekt_koncowy.dir/solitaireManager.cpp.obj" \
 "CMakeFiles/Pasjans_projekt_koncowy.dir/card.cpp.obj" \
-"CMakeFiles/Pasjans_projekt_koncowy.dir/solitaireBoard.cpp.obj"
+"CMakeFiles/Pasjans_projekt_koncowy.dir/solitaireBoard.cpp.obj" \
+"CMakeFiles/Pasjans_projekt_koncowy.dir/segregacja.cpp.obj" \
+"CMakeFiles/Pasjans_projekt_koncowy.dir/plansza.cpp.obj"
 
 # External object files for target Pasjans_projekt_koncowy
 Pasjans_projekt_koncowy_EXTERNAL_OBJECTS =
@@ -206,6 +236,8 @@ Pasjans_projekt_koncowy.exe: CMakeFiles/Pasjans_projekt_koncowy.dir/introControl
 Pasjans_projekt_koncowy.exe: CMakeFiles/Pasjans_projekt_koncowy.dir/solitaireManager.cpp.obj
 Pasjans_projekt_koncowy.exe: CMakeFiles/Pasjans_projekt_koncowy.dir/card.cpp.obj
 Pasjans_projekt_koncowy.exe: CMakeFiles/Pasjans_projekt_koncowy.dir/solitaireBoard.cpp.obj
+Pasjans_projekt_koncowy.exe: CMakeFiles/Pasjans_projekt_koncowy.dir/segregacja.cpp.obj
+Pasjans_projekt_koncowy.exe: CMakeFiles/Pasjans_projekt_koncowy.dir/plansza.cpp.obj
 Pasjans_projekt_koncowy.exe: CMakeFiles/Pasjans_projekt_koncowy.dir/build.make
 Pasjans_projekt_koncowy.exe: C:/Users/janna/OneDrive/Dokumenty/SFML-2.5.1/lib/libsfml-graphics-d.a
 Pasjans_projekt_koncowy.exe: C:/Users/janna/OneDrive/Dokumenty/SFML-2.5.1/lib/libsfml-window-d.a
@@ -215,7 +247,7 @@ Pasjans_projekt_koncowy.exe: C:/Users/janna/OneDrive/Dokumenty/SFML-2.5.1/lib/li
 Pasjans_projekt_koncowy.exe: CMakeFiles/Pasjans_projekt_koncowy.dir/linklibs.rsp
 Pasjans_projekt_koncowy.exe: CMakeFiles/Pasjans_projekt_koncowy.dir/objects1.rsp
 Pasjans_projekt_koncowy.exe: CMakeFiles/Pasjans_projekt_koncowy.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\janna\OneDrive\Dokumenty\C++\Programowanie Obiektowe - 2 Semestr\C-Lion\Projects\Pasjans projekt koncowy\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Pasjans_projekt_koncowy.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\janna\OneDrive\Dokumenty\C++\Programowanie Obiektowe - 2 Semestr\C-Lion\Projects\Pasjans projekt koncowy\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable Pasjans_projekt_koncowy.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Pasjans_projekt_koncowy.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

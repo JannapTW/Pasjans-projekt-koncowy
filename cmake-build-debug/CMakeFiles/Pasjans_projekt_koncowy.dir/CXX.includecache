@@ -28,6 +28,10 @@ C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion
 solitaireBoard.h
 C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/solitaireBoard.h
 
+C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/card.cpp
+card.h
+C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/card.h
+
 C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/card.h
 string
 -
@@ -74,6 +78,26 @@ C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion
 solitaireManager.h
 C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/solitaireManager.h
 
+C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/plansza.cpp
+plansza.h
+C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/plansza.h
+
+C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/plansza.h
+card.h
+C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/card.h
+vector
+-
+
+C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/segregacja.cpp
+segregacja.h
+C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/segregacja.h
+
+C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/segregacja.h
+card.h
+C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/card.h
+vector
+-
+
 C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/solitaireBoard.cpp
 solitaireBoard.h
 C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/solitaireBoard.h
@@ -81,6 +105,10 @@ C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion
 C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/solitaireBoard.h
 talia.h
 C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/talia.h
+plansza.h
+C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/plansza.h
+segregacja.h
+C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/segregacja.h
 
 C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/solitaireManager.cpp
 solitaireManager.h
@@ -94,6 +122,16 @@ C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion
 introController.h
 C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/introController.h
 
+C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/talia.cpp
+iostream
+-
+time.h
+-
+ctime
+-
+talia.h
+C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/talia.h
+
 C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/talia.h
 time.h
 -
@@ -101,6 +139,8 @@ ctime
 -
 card.h
 C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/card.h
+vector
+-
 
 C:/Users/janna/OneDrive/Dokumenty/SFML-2.5.1/include/SFML/Config.hpp
 TargetConditionals.h

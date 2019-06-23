@@ -33,8 +33,33 @@ C) Praktycznie wszystkim steruje myszą. (Spacją mogę zaczynać grę)
 
 D) Nie zapomnij o destruktorze i delete deck[]
 
-E) Rozmiar karty to 74x98
+E) Rozmiar karty to 74x98  /3 = 25x33
 
 PROBLEMY:
 -Jak wykrywać każdą kartę MOBILNIE?
 -Jak zapamiętać wybór karty
+
+
+klasa plansza trzymające tablice kart
+
+klasa segregacja trzymająca tablice kart
+
+zrobić wszystko na vektorach, przebuduj program.
+
+klasa talia powinna być wektorem
+7 pozycji to po prostu 7 wektorów o różnych nazwach
+
+4 pozycje to także są wektory
+talia to wektor z odkrytym ostatnim elementem (pozycja równa długości wektoru)
+
+CO SIE DZIEJE GDY WYCIAGAM KARTĘ Z TALII?
+
+1: KARTE Z TALII USUWAM I WKLADAM NA STOS
+2: KOLEJNE KARTY DOKLADAM DO STOSU LUB KARTY ZE STOSU PRZEKŁADAM NA DOWOLNE Z PÓL
+
+
+CO SIE DIEJE GDY PRZEKŁADAM WIECEJ NIZ JEDNĄ KARTĘ?
+1: sprawdzam czy najniższa (najwiekszy indeks) jest o jeden mniejsza w wartości od kartye o 1 indeks mniejszej
+2: zapętlam tą operację do napotkania liczby mniejszej (mogę pętlić w nieszkończoność i wychodzić break;)
+3: gdy skończę sprawdzanie push_back'uje od najmniejszego indeksu do najwiekszego (od baza.size() - counter do baza size
+jednocześnie popbackując z bazy po zakończeniu)

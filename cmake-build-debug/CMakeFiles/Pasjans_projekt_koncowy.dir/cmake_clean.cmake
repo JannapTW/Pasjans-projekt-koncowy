@@ -8,6 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Pasjans_projekt_koncowy.dir/solitaireManager.cpp.obj"
   "CMakeFiles/Pasjans_projekt_koncowy.dir/card.cpp.obj"
   "CMakeFiles/Pasjans_projekt_koncowy.dir/solitaireBoard.cpp.obj"
+  "CMakeFiles/Pasjans_projekt_koncowy.dir/segregacja.cpp.obj"
+  "CMakeFiles/Pasjans_projekt_koncowy.dir/plansza.cpp.obj"
   "Pasjans_projekt_koncowy.pdb"
   "Pasjans_projekt_koncowy.exe"
   "Pasjans_projekt_koncowy.exe.manifest"

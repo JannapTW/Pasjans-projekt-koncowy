@@ -6,29 +6,41 @@
 #define PASJANS_PROJEKT_KONCOWY_SOLITAIREBOARD_H
 
 #include "talia.h"
+#include "plansza.h"
+#include "segregacja.h"
 
 enum GameState {RUNNING, FINISHED};
 
-class solitaireBoard : public talia
+class solitaireBoard
 {
+    talia tal; //talia stworzona juz w klasie talia
+    segregacja seg; // tablica tablicy kart do odkładania
+    plansza pla; // tablica tablicy kart do operowania
+    //int aktualna_karta; //można dzielić przez 13 lub 4 by uzyskać element
 
-    //talia stworzona juz w klasie talia (jak sie do niej dostać)
-    card** segregacja; // tablica tablicy kart do odkładania
-    card** plansza; // tablica tablicy kart do operowania
-    int aktualna_karta; //można dzielić przez 13 lub 4 by uzyskać element
 
 public:
-    solitaireBoard();
+    solitaireBoard(talia, segregacja, plansza);
     void setup();
-    void selectCard(card);
-    void placeCard(int, int, int); //musi brać kartę, więc ma minimum jeden argument. Zwraca info o karcie więc ma być typu wskaźnik na kartę? aktualna karta?
-                            // ALBO KORZYSTA Z AKTUALNEJ KARTY
-    void takeCard(int, int, int);
+    ///Zróbmy to w kontrolerze
+    //void selectCard(int, int); //Gdy zaznaczę coś myszką to powinienem przechować nazwę vectora i numer w tablicy
+    //mogę odznaczyć klikając ponownie
+    //klikniecie w inne pole powinno :
+    //a) Przerzucić kartę tzn wykorzystać funkcję w zależności od elemetu
+    //b) Odznaczyć w przypadku błędnego zaznaczenia
+    //void placeCard(int, int, int); //funkcja łącząca zbieranie kart z talii, segregacji oraz planszy NIEPOTRZEBNA
+
+
+    //bool isOpposite(std::vector<card>, std::vector<card>); // Do obydwu
+
+    //bool isOneHigher(std::vector<card>); // Do planszy
+
+    //bool isOneLower(std::vector<card>); // Do segregacji
 
 
     GameState get_gamestate(); //Gra się kończy gdy talia oraz plansza będą puste
 
-    const int get_number(card); // 0-51
+//    const int get_number(); // 0-51
 };
 
 #endif //PASJANS_PROJEKT_KONCOWY_SOLITAIREBOARD_H

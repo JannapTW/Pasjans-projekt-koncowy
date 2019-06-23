@@ -8,20 +8,20 @@
 #include <time.h>
 #include <ctime>
 #include "card.h"
+#include <vector>
+
 
 class talia : public card
 {
-    card* deck; // Wskaźnik na kartę o typie deck
+    std::vector <card> deck; // Wektor przechowujący zmienny typu card
+    std::vector <card> stack;
     int current_card; // aktualna karta na dla której wykonujemy operacje
 public:
     talia();
     void printDeck();
     void shuffle();
-    card dealCard();
-    card putCard(int);
-
-    bool is_empty(card);
-
+    void dealCard();
+    void moveCard(std::vector<card>);
 
 };
 

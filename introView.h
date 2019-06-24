@@ -5,11 +5,14 @@
 #ifndef PASJANS_PROJEKT_KONCOWY_INTROVIEW_H
 #define PASJANS_PROJEKT_KONCOWY_INTROVIEW_H
 
-#include <SFML/Graphics/RenderWindow.hpp>
+#include <SFML/Graphics.hpp>
 #include "solitaireBoard.h"
 class introView
 {
     //solitaireBoard & board;
+    sf::Font font;
+    sf::Text txt1, txt2;
+    sf::RectangleShape background;
     //Deklaracja zmiennych
 
 public:

@@ -14,18 +14,18 @@ talia::talia()
     std::string symbol[] = {"Serce", "Karo", "Trefl", "Pik"}; // j
     // Wskaznikiem na typ card tworzymy nową tablicę
 
-    current_card = deck.size();
     //Ustawia całą talie w sposob posegregowany
     for (int i = 0 ; i<52 ; ++i)
     {
         //deck[i] = card(liczba[i % 13], symbol[i / 13]);
         deck.push_back(card(liczba[i % 13], symbol[i / 13]));
     }
+    current_card = lengthOf(deck);
 }
 
 void talia::printDeck()
 {
-    for (int i = 0 ; i<deck.size() ; ++i)
+    for (int i = 0 ; i<lengthOf(deck) ; ++i)
     {
         //Wyswietla cala talie w konsoli
         std::cout << deck[i].print() << " ";
@@ -38,14 +38,14 @@ void talia::shuffle()
 {
     //Algorytm tasowania. Zamienia miejscami kazda karte w talii z losowa karta (może nawet z tą samą)
     //Co jest ważne, nie zamienia wartosci symboli i liczb a tylko zmienia ich położenie w tablicy!
-    current_card = deck.size();
+    current_card = lengthOf(deck);
     for (int first = 0 ; first<deck.size(); ++first)
     {
         int second = (rand()+time(0)) % deck.size();
         card temp = deck[first];
         deck[first] = deck[second];
         deck[second] = temp;
-    }
+    } //do sprawdzenia
 }
 
 void talia::dealCard()
@@ -76,8 +76,13 @@ void talia::dealCard()
 
 void talia::moveCard(std::vector<card> vec) //zdjęcie karty ze stack'u i wrzucenie jej do planszy
 {
-    vec.push_back(stack[stack.size()]);
+    vec.push_back(stack[lengthOf(stack)]);
     stack.pop_back();
+}
+
+int talia::lengthOf(std::vector<card> baza)
+{
+    return baza.size() - 1;
 }
 
 

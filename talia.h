@@ -22,6 +22,7 @@ public:
     void shuffle();
     void dealCard();
     void moveCard(std::vector<card>);
+    int lengthOf(std::vector<card>);
 
 };
 

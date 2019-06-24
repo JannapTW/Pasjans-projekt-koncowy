@@ -33,7 +33,7 @@ C) Praktycznie wszystkim steruje myszą. (Spacją mogę zaczynać grę)
 
 D) Nie zapomnij o destruktorze i delete deck[]
 
-E) Rozmiar karty to 74x98  /3 = 25x33
+E) Rozmiar karty to 72x97  /3 = 24x32
 
 PROBLEMY:
 -Jak wykrywać każdą kartę MOBILNIE?

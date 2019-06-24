@@ -4,11 +4,15 @@
 
 #include "solitaireBoard.h"
 solitaireBoard::solitaireBoard(talia t, segregacja s, plansza p)
-        :tal(t), seg(s), pla(p) {}
+        :tal(t), seg(s), pla(p)
+{}
 
 
-//void solitaireBoard::selectCard(card wsk) { aktualna_karta = get_number(wsk); }
 
+///FUNKCJA isRevealed która sprawdza czy karta jest na wierzchu i dająca zezwolenie na wyświetlanie
+
+///Funkcja zaznaczająca kartę i pozwalająca kontrolerowi na poruszanie jej
+//void solitaireBoard::selectCard(card wsk) { aktualna_karta = get_number(wsk); } ?
 
 GameState solitaireBoard::get_gamestate()
 {
@@ -16,6 +20,5 @@ GameState solitaireBoard::get_gamestate()
         return FINISHED;
     return RUNNING;
 }
-
 
 

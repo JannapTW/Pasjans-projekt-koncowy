@@ -32,23 +32,28 @@ int main()
     talia t;
     segregacja s;
     plansza p;
-    solitaireBoard b(t,s,p);
+    cout << "obiekty zainicjalizowanie";
+
+    solitaireBoard b(t, s, p);
 
     //Wygląd gry
     boardView v(b);
+    cout << "board view zainicjalizowany";
 
     //Sterowanie grą
-    boardController bc(b,v);
+    boardController bc(b, v);
+    cout << "Kontroler zainicjalizowany";
 
     //Intro
     introView iv;
+    cout << "intro view zainicjalizowany";
+
 
     //sterowanie intrem
-    introController ic(b,iv);
+    introController ic(b, iv);
 
     //Zarządzanie sterowaniem
-    solitaireManager sm(bc,ic);
-
+    solitaireManager sm(bc, ic);
 
     while (win.isOpen())
     {

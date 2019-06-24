@@ -28,6 +28,7 @@ public:
     bool isOneLower(std::vector<card>, int); // Do planszy
     bool isOneHigher(std::vector<card>, std::vector<card>); // Do segregacji
     void setup();
+    int lengthOf(std::vector<card>);
 };
 
 #endif //PASJANS_PROJEKT_KONCOWY_PLANSZA_H

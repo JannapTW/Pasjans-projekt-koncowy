@@ -21,6 +21,7 @@ public:
 
     bool isOneHigher(std::vector<card>, std::vector<card>); // Do segregacji
     bool isOneLower(std::vector<card>, std::vector<card>); // Do planszy
+    int lengthOf(std::vector<card>);
 
 
     bool isComplete();

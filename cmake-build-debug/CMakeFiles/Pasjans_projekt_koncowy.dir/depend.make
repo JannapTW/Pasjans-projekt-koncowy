@@ -346,6 +346,7 @@ CMakeFiles/Pasjans_projekt_koncowy.dir/main.cpp.obj: C:/Users/janna/OneDrive/Dok
 CMakeFiles/Pasjans_projekt_koncowy.dir/plansza.cpp.obj: ../card.h
 CMakeFiles/Pasjans_projekt_koncowy.dir/plansza.cpp.obj: ../plansza.cpp
 CMakeFiles/Pasjans_projekt_koncowy.dir/plansza.cpp.obj: ../plansza.h
+CMakeFiles/Pasjans_projekt_koncowy.dir/plansza.cpp.obj: ../talia.h
 
 CMakeFiles/Pasjans_projekt_koncowy.dir/segregacja.cpp.obj: ../card.h
 CMakeFiles/Pasjans_projekt_koncowy.dir/segregacja.cpp.obj: ../segregacja.cpp

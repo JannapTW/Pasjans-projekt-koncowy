@@ -12,10 +12,14 @@ class boardView
 {
     solitaireBoard & board;
     //Deklaracja zmiennych
+    sf::Color color1, color2,lightGreen, darkGreen;
+    sf::Font font;
+    sf::Text txt1, txt2, txt3, txt4;
+    sf::RectangleShape background;
 
 public:
     explicit boardView(solitaireBoard & b);
-    void draw (sf::RenderWindow & win);
+    void draw(sf::RenderWindow & win);
 
 };
 

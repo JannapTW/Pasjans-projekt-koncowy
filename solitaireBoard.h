@@ -9,7 +9,7 @@
 #include "plansza.h"
 #include "segregacja.h"
 
-enum GameState {RUNNING, FINISHED};
+enum GameState { RUNNING, FINISHED };
 
 class solitaireBoard
 {
@@ -29,14 +29,6 @@ public:
     //a) Przerzucić kartę tzn wykorzystać funkcję w zależności od elemetu
     //b) Odznaczyć w przypadku błędnego zaznaczenia
     //void placeCard(int, int, int); //funkcja łącząca zbieranie kart z talii, segregacji oraz planszy NIEPOTRZEBNA
-
-
-    //bool isOpposite(std::vector<card>, std::vector<card>); // Do obydwu
-
-    //bool isOneHigher(std::vector<card>); // Do planszy
-
-    //bool isOneLower(std::vector<card>); // Do segregacji
-
 
     GameState get_gamestate(); //Gra się kończy gdy talia oraz plansza będą puste
 

@@ -29,7 +29,10 @@ int main()
     //Okno
     sf::RenderWindow win(sf::VideoMode(1600, 900), "Solitaire");
     //Logika
-    solitaireBoard b;
+    talia t;
+    segregacja s;
+    plansza p;
+    solitaireBoard b(t,s,p);
 
     //Wygląd gry
     boardView v(b);
@@ -60,19 +63,6 @@ int main()
             //Operate everything
             sm.handleEvent(event);
         }
-
-        //std::cout<< 1.0f / time.asSeconds() << std::endl;
-
-//        if(ic.isFinished())
-//        {
-//            clock.restart();
-//            limit += time.asSeconds();
-//            if(limit>0.05)
-//            {
-//                b.snakeMove();
-//                limit = 0;
-//            }
-//        }
         // Clear screen
         win.clear();
 

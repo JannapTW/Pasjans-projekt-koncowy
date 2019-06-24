@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/boardController.cpp
-boardController.h
-C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/boardController.h
-
 C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/boardController.h
 SFML/Window/Event.hpp
 -
@@ -17,10 +13,6 @@ boardView.h
 C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/boardView.h
 solitaireBoard.h
 C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/solitaireBoard.h
-
-C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/boardView.cpp
-boardView.h
-C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/boardView.h
 
 C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/boardView.h
 SFML/Graphics.hpp
@@ -28,27 +20,15 @@ C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion
 solitaireBoard.h
 C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/solitaireBoard.h
 
-C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/card.cpp
-card.h
-C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/card.h
-
 C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/card.h
 string
 -
-
-C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/introController.cpp
-introController.h
-C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/introController.h
 
 C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/introController.h
 SFML/Window/Event.hpp
 -
 solitaireBoard.h
 C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/solitaireBoard.h
-introView.h
-C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/introView.h
-
-C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/introView.cpp
 introView.h
 C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/introView.h
 
@@ -78,29 +58,19 @@ C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion
 solitaireManager.h
 C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/solitaireManager.h
 
-C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/plansza.cpp
-plansza.h
-C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/plansza.h
-
 C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/plansza.h
 card.h
 C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/card.h
+talia.h
+C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/talia.h
 vector
 -
-
-C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/segregacja.cpp
-segregacja.h
-C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/segregacja.h
 
 C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/segregacja.h
 card.h
 C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/card.h
 vector
 -
-
-C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/solitaireBoard.cpp
-solitaireBoard.h
-C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/solitaireBoard.h
 
 C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/solitaireBoard.h
 talia.h
@@ -109,10 +79,6 @@ plansza.h
 C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/plansza.h
 segregacja.h
 C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/segregacja.h
-
-C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/solitaireManager.cpp
-solitaireManager.h
-C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/solitaireManager.h
 
 C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/solitaireManager.h
 boardView.h
@@ -121,16 +87,6 @@ boardController.h
 C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/boardController.h
 introController.h
 C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/introController.h
-
-C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/talia.cpp
-iostream
--
-time.h
--
-ctime
--
-talia.h
-C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/talia.h
 
 C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/talia.h
 time.h

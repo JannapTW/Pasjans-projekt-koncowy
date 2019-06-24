@@ -23,7 +23,7 @@ public:
     void takeCard();
     bool isEmpty();
     bool isOpposite(card);
-
+    bool isSame(card);
 
 };
 

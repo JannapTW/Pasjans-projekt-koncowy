@@ -47,23 +47,37 @@ void plansza::setup()
     }
 }
 
-void plansza::put_cards(std::vector<card> baza, std::vector<card> vec)
+void plansza::move_cards(std::vector<card> baza, std::vector<card> vec, int n)
 {
     int counter = 0;
-    for (int i = baza.size() ;; --i)
+    for (int i = n ; i<baza.size() ; ++i)
     {
-        if(isOneHigher(baza, vec, i))
+        if(isOneLower(baza, i) && (baza[i].isOpposite(baza[n + 1]))) ///TO DALEJ POWINNO BYĆ ONE LOWER!
         {
             ++counter;
         }
         else break;
     }
 
-    for (int i = baza.size() - counter ; i<baza.size() ; --i)
+    if(((isOneHigher(baza, vec) && (baza[baza.size() - counter].isOpposite(vec[vec.size()])))
+            || (vec.empty() && baza[baza.size() - counter].get_number() == 12)))
     {
-        vec.push_back(baza[i]);
+        for (int i = baza.size() - counter ; i<baza.size() ; ++i)
+        {
+            vec.push_back(baza[i]);
+        }
+        take_cards(baza, counter);
     }
-    take_cards(baza, counter);
+}
+
+void plansza::put_card(std::vector<card> baza, std::vector<card> vec)
+{
+    if(((isOneHigher(baza, vec) && (baza[baza.size()].isOpposite(vec[vec.size()])))
+            || (vec.empty() && baza[baza.size()].get_number() == 12)))
+    {
+        vec.push_back(baza[baza.size()]);
+        take_cards(baza, 0);
+    }
 }
 
 void plansza::take_cards(std::vector<card> vec, int n)
@@ -72,12 +86,19 @@ void plansza::take_cards(std::vector<card> vec, int n)
         vec.pop_back();
 }
 
-
-bool plansza::isOneHigher(std::vector<card> baza, std::vector<card> vec, int n)
+bool plansza::isOneLower(std::vector<card> baza, int n) //Do przekładania wielu na planszę
 {
-    if(baza[n].get_number() == (vec[n - 1].get_number() + 1))
+    if(baza[n].get_number() == (baza[n + 1].get_number() - 1))
         return true;
     return false;
 }
+
+bool plansza::isOneHigher(std::vector<card> baza, std::vector<card> vec) // Do przekładania na plansze
+{
+    if(baza[baza.size()].get_number() == (vec[vec.size()].get_number() + 1))
+        return true;
+    return false;
+}
+
 
 

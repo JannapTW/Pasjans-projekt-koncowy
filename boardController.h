@@ -14,7 +14,6 @@ class boardController
     solitaireBoard & board;
     boardView & view;
 
-
 public:
     boardController(solitaireBoard & b, boardView & v);
     void handleEvent(sf::Event & event); //obsługa zdarzen

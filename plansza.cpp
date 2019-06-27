@@ -60,7 +60,7 @@ void plansza::move_cards(std::vector<card> baza, std::vector<card> vec, int n)
     }
 
     if(((isOneHigher(baza, vec) && (baza[lengthOf(baza) - counter].isOpposite(vec[lengthOf(vec)])))
-            || (vec.empty() && baza[lengthOf(baza) - counter].get_number() == 12)))
+            || (vec.empty() && baza[lengthOf(baza) - counter].card_to_number() == 12)))
     {
         for (int i = baza.size() - counter ; i<baza.size() ; ++i)
         {
@@ -73,7 +73,7 @@ void plansza::move_cards(std::vector<card> baza, std::vector<card> vec, int n)
 void plansza::put_card(std::vector<card> baza, std::vector<card> vec)
 {
     if(((isOneHigher(baza, vec) && (baza[lengthOf(baza)].isOpposite(vec[lengthOf(vec)])))
-            || (vec.empty() && baza[lengthOf(baza)].get_number() == 12)))
+            || (vec.empty() && baza[lengthOf(baza)].card_to_number() == 12)))
     {
         vec.push_back(baza[lengthOf(baza)]);
         take_cards(baza, 0);
@@ -88,14 +88,14 @@ void plansza::take_cards(std::vector<card> vec, int n)
 
 bool plansza::isOneLower(std::vector<card> baza, int n) //Do sprawdzenia możliwośći przekładania wielu na planszę
 {
-    if(baza[n].get_number() == (baza[n + 1].get_number() - 1))
+    if(baza[n].card_to_number() == (baza[n + 1].card_to_number() - 1))
         return true;
     return false;
 }
 
 bool plansza::isOneHigher(std::vector<card> baza, std::vector<card> vec) // Do czynności przekładania na plansze
 {
-    if(baza[lengthOf(baza)].get_number() == (vec[lengthOf(vec)].get_number() + 1))
+    if(baza[lengthOf(baza)].card_to_number() == (vec[lengthOf(vec)].card_to_number() + 1))
         return true;
     return false;
 }
@@ -103,6 +103,27 @@ bool plansza::isOneHigher(std::vector<card> baza, std::vector<card> vec) // Do c
 int plansza::lengthOf(std::vector<card> baza)
 {
     return baza.size() - 1;
+}
+
+std::vector<card> plansza::wybierz_pole(int n)
+{
+    switch(n)
+    {
+    case 1:
+        return pole_1;
+    case 2:
+        return pole_2;
+    case 3:
+        return pole_3;
+    case 4:
+        return pole_4;
+    case 5:
+        return pole_5;
+    case 6:
+        return pole_6;
+    case 7:
+        return pole_7;
+    }
 }
 
 

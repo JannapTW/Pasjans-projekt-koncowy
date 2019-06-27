@@ -11,21 +11,6 @@
 using namespace std;
 int main()
 {
-    talia deck;
-    card karta;
-    //Program testujący działanie bazy talii w konsoli
-//    deck.printDeck();
-//    deck.shuffle();
-//    cout << endl << endl;
-//    deck.printDeck();
-//    deck.shuffle();
-//    cout << endl << endl;
-//    for (int i = 0 ; i<52 ; ++i)
-//    {
-//        karta = deck.dealCard();
-//        cout << karta.print() << endl;
-//    }
-
     //Okno
     sf::RenderWindow win(sf::VideoMode(1600, 900), "Solitaire");
     //Logika
@@ -34,10 +19,10 @@ int main()
     plansza p;
     cout << "obiekty zainicjalizowanie";
 
-    solitaireBoard b(t, s, p);
+    solitaireBoard b(t,p,s);
 
     //Wygląd gry
-    boardView v(b);
+    boardView v(b,t,p,s);
     cout << "board view zainicjalizowany";
 
     //Sterowanie grą

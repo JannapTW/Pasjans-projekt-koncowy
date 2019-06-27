@@ -28,45 +28,39 @@ const std::string card::get_liczba()
     return card::liczba;
 }
 
-void card::takeCard()
-{
-    card::symbol = "empty";
-    card::liczba = "empty";
-}
-
 bool card::isEmpty()
 {
     return card::symbol == "empty" && card::liczba == "empty";
 }
 
-const int card::get_number()
+const int card::card_to_number() //0-12
 {
     int x;
-    if(this->get_liczba() == "As")
+    if(this->get_liczba() == "as")
         x = 0;
-    if(this->get_liczba() == "Dwojka")
+    if(this->get_liczba() == "dwojka")
         x = 1;
-    if(this->get_liczba() == "Trojka")
+    if(this->get_liczba() == "trojka")
         x = 2;
-    if(this->get_liczba() == "Czworka")
+    if(this->get_liczba() == "czworka")
         x = 3;
-    if(this->get_liczba() == "Piatka")
+    if(this->get_liczba() == "piatka")
         x = 4;
-    if(this->get_liczba() == "Szostka")
+    if(this->get_liczba() == "szostka")
         x = 5;
-    if(this->get_liczba() == "Siodemka")
+    if(this->get_liczba() == "siodemka")
         x = 6;
-    if(this->get_liczba() == "Osemka")
+    if(this->get_liczba() == "osemka")
         x = 7;
-    if(this->get_liczba() == "Dziewiatka")
+    if(this->get_liczba() == "dziewiatka")
         x = 8;
-    if(this->get_liczba() == "Dziesiatka")
+    if(this->get_liczba() == "dziesiatka")
         x = 9;
-    if(this->get_liczba() == "Walet")
+    if(this->get_liczba() == "walet")
         x = 10;
-    if(this->get_liczba() == "Dama")
+    if(this->get_liczba() == "dama")
         x = 11;
-    if(this->get_liczba() == "Krol")
+    if(this->get_liczba() == "krol")
         x = 12;
 
     return x;
@@ -74,13 +68,13 @@ const int card::get_number()
 
 bool card::isOpposite(card karta) //Sprawdzamy kartę z poziomu wyżej ( +1 )
 {
-    if((this->get_symbol() == "Serce") || (this->get_symbol() == "Karo"))
+    if((this->get_symbol() == "serce") || (this->get_symbol() == "karo"))
     {
-        return (karta.get_symbol() == "Trefl") || (karta.get_symbol() == "Pik");
+        return (karta.get_symbol() == "trefl") || (karta.get_symbol() == "pik");
     }
-    else if((this->get_symbol() == "Trefl") || (this->get_symbol() == "Pik"))
+    else if((this->get_symbol() == "trefl") || (this->get_symbol() == "pik"))
     {
-        return (karta.get_symbol() == "Serce") || (karta.get_symbol() == "Karo");
+        return (karta.get_symbol() == "serce") || (karta.get_symbol() == "karo");
     }
 }
 

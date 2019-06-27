@@ -11,28 +11,59 @@
 
 enum GameState { RUNNING, FINISHED };
 
+enum cardFace{as_serce = 0, dwojka_serce, trojka_serce, czworka_serce, piatka_serce, szostka_serce, siodemka_serce, osemka_serce,
+  dziewiatka_serce, dziesiatka_serce, walet_serce, dama_serce, krol_serce, as_karo, dwojka_karo, trojka_karo, czworka_karo, piatka_karo, szostka_karo, siodemka_karo, osemka_karo,
+  dziewiatka_karo, dziesiatka_karo, walet_karo, dama_karo, krol_karo, as_trefl, dwojka_trefl, trojka_trefl, czworka_trefl, piatka_trefl, szostka_trefl, siodemka_trefl, osemka_trefl,
+  dziewiatka_trefl, dziesiatka_trefl, walet_trefl, dama_trefl, krol_trefl, as_pik, dwojka_pik, trojka_pik, czworka_pik, piatka_pik, szostka_pik, siodemka_pik, osemka_pik,
+  dziewiatka_pik, dziesiatka_pik, walet_pik, dama_pik, krol_pik};
+
+
+
 class solitaireBoard
 {
     talia tal; //talia stworzona juz w klasie talia
     segregacja seg; // tablica tablicy kart do odkładania
     plansza pla; // tablica tablicy kart do operowania
-    //int aktualna_karta; //można dzielić przez 13 lub 4 by uzyskać element
-
 
 public:
-    solitaireBoard(talia, segregacja, plansza);
+    solitaireBoard(talia, plansza, segregacja);
     void setup();
     ///Zróbmy to w kontrolerze
-    //void selectCard(int, int); //Gdy zaznaczę coś myszką to powinienem przechować nazwę vectora i numer w tablicy
     //mogę odznaczyć klikając ponownie
     //klikniecie w inne pole powinno :
     //a) Przerzucić kartę tzn wykorzystać funkcję w zależności od elemetu
     //b) Odznaczyć w przypadku błędnego zaznaczenia
     //void placeCard(int, int, int); //funkcja łącząca zbieranie kart z talii, segregacji oraz planszy NIEPOTRZEBNA
 
+    //funkcja zamieniający pozycje miejscami? odpowiednie połączynie utworzonych funckji foo(baza, cel);
+    // możliwe operacje: 1. talia -> plansza  2. talia -> segregacja 3. plansza->plansza 4. plansza->segregacja
+    // 5. segregacja->plansza
+    void move(talia,plansza, int);
+    void move(talia,segregacja, int);
+    void move(plansza,plansza, int, int, int);
+    void move(plansza,segregacja, int, int);
+    void move(segregacja,plansza, int, int);
+
+
+    cardFace getCardEnum(std::vector<card>, int);
+
+    int getPosition(int);
+
+    std::vector<card> getCardWektor();
+
+
+    bool isRevealed(std::vector<card> baza, int n);
+
+    int lengthOf(std::vector<card>);
+
+    int getStackSize(talia);
+
+
+
+
     GameState get_gamestate(); //Gra się kończy gdy talia oraz plansza będą puste
 
-//    const int get_number(); // 0-51
+//    const int card_to_number(); // 0-51
 };
 
 #endif //PASJANS_PROJEKT_KONCOWY_SOLITAIREBOARD_H

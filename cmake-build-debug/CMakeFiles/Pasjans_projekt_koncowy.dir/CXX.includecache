@@ -7,6 +7,12 @@
 #IncludeRegexTransform: 
 
 C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/boardView.cpp
+plansza.h
+C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/plansza.h
+talia.h
+C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/talia.h
+segregacja.h
+C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/segregacja.h
 boardView.h
 C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/boardView.h
 
@@ -33,10 +39,6 @@ card.h
 C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/card.h
 vector
 -
-
-C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/solitaireBoard.cpp
-solitaireBoard.h
-C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/solitaireBoard.h
 
 C:/Users/janna/OneDrive/Dokumenty/C++/Programowanie Obiektowe - 2 Semestr/C-Lion/Projects/Pasjans projekt koncowy/solitaireBoard.h
 talia.h

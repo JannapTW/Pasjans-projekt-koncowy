@@ -17,7 +17,7 @@ class introView
 
 public:
     explicit introView();
-    void draw (sf::RenderWindow & win);
+    void draw(sf::RenderWindow & win);
 
 };
 

@@ -23,6 +23,8 @@ public:
     bool isOneLower(std::vector<card>, std::vector<card>); // Do planszy
     int lengthOf(std::vector<card>);
 
+    std::vector<card> wybierz_pole(int);
+
 
     bool isComplete();
 };

@@ -33,7 +33,7 @@ C) Praktycznie wszystkim steruje myszą. (Spacją mogę zaczynać grę)
 
 D) Nie zapomnij o destruktorze i delete deck[]
 
-E) Rozmiar karty to 72x97  /3 = 24x32
+E) Rozmiar karty to 71x96
 
 PROBLEMY:
 -Jak wykrywać każdą kartę MOBILNIE?
@@ -63,3 +63,11 @@ CO SIE DIEJE GDY PRZEKŁADAM WIECEJ NIZ JEDNĄ KARTĘ?
 2: zapętlam tą operację do napotkania liczby mniejszej (mogę pętlić w nieszkończoność i wychodzić break;)
 3: gdy skończę sprawdzanie push_back'uje od najmniejszego indeksu do najwiekszego (od baza.size() - counter do baza size
 jednocześnie popbackując z bazy po zakończeniu)
+
+
+Co mogę wykorzystać do view by wydobyc info o karcie?
+1. funkcja zwracajaca sprite w zaleznosci od enuma cardFace łączy się z 2
+2. funkcja zwracajaca enum w zaleznosci od odczytanego stringa z elementu n wektora
+3.
+
+odczytywanie kart z nazw biorą po prostu długośc każdego z wektorów

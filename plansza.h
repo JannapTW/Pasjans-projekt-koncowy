@@ -28,6 +28,7 @@ public:
     bool isOneLower(std::vector<card>, int); // Do planszy
     bool isOneHigher(std::vector<card>, std::vector<card>); // Do segregacji
     void setup();
+    std::vector<card> wybierz_pole(int);
     int lengthOf(std::vector<card>);
 };
 

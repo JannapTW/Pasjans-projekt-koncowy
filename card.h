@@ -16,7 +16,7 @@ public:
     const std::string get_symbol();
     const std::string get_liczba();
 
-    const int get_number();
+    const int card_to_number();
     std::string print() const;
     card();
 

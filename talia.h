@@ -23,6 +23,10 @@ public:
     void dealCard();
     void moveCard(std::vector<card>);
     int lengthOf(std::vector<card>);
+    int getStackSize();
+    int getDeckSize();
+
+    std::vector<card> getStack();
 
 };
 

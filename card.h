@@ -13,14 +13,13 @@ class card
 
 public:
     card(std::string s, std::string l); //dodac zmienna odkryte
-    const std::string get_symbol();
-    const std::string get_liczba();
+    const std::string get_symbol() const;
+    const std::string get_liczba() const;
 
-    const int card_to_number();
+    int card_to_number() const;
     std::string print() const;
     card();
 
-    void takeCard();
     bool isEmpty();
     bool isOpposite(card);
     bool isSame(card);

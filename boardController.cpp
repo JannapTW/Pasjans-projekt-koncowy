@@ -4,17 +4,14 @@
 
 #include "boardController.h"
 
-boardController::boardController(solitaireBoard & b,boardView & v)
-    :board(b),view(v)
-{
-
-}
+boardController::boardController(solitaireBoard & b,boardView & v, talia & t, plansza & p, segregacja & s)
+    :board(b),view(v),tal(t),pla(p),seg(s)
+{}
 
 void boardController::handleEvent (sf::Event &event)
 {
-    int x_orig = 290;
-    int y_orig = 150;
-    int size = 20;
+    int x_orig = 200;
+    int y_orig = 100;
 
     if (event.type == sf::Event::MouseButtonPressed)
     {

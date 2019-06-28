@@ -20,16 +20,16 @@ class plansza : public talia
     std::vector<card> pole_7;
 public:
     plansza();
-    void put_card(std::vector<card>, std::vector<card>);
+    void put_card(std::vector<card> &, std::vector<card> &);
     /// 1. kładiesz jedna karte  2. kładziesz 2 lub wiecej kart (int do rozpoznawania) push_back w pętli
-    void move_cards(std::vector<card>, std::vector<card>, int);
-    void take_cards(std::vector<card>, int);
+    void move_cards(std::vector<card> &, std::vector<card> &,const int &);
+    void take_cards(std::vector<card> &, int);
     /// 1. zabierasz 1 karte  2. zabierasz 2 lub wiecej kart (int do rozpoznawania) pop_back w pętli
-    bool isOneLower(std::vector<card>, int); // Do planszy
-    bool isOneHigher(std::vector<card>, std::vector<card>); // Do segregacji
+    const bool isOneLower(const std::vector<card> &, int); // Do planszy
+    const bool isOneHigher(const std::vector<card> &,const std::vector<card> &); // Do segregacji
     void setup();
-    std::vector<card> wybierz_pole(int);
-    int lengthOf(std::vector<card>);
+    std::vector<card> & wybierz_pole(const int &);
+    const int lengthOf(const std::vector<card> &);
 };
 
 #endif //PASJANS_PROJEKT_KONCOWY_PLANSZA_H

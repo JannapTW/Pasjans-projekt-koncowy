@@ -21,9 +21,9 @@ public:
     void printDeck();
     void shuffle();
     void dealCard();
-    void moveCard(std::vector<card>);
-    int lengthOf(std::vector<card>);
-    int getStackSize();
+    void moveCard(std::vector<card> &);
+    virtual const int lengthOf(const std::vector<card> &);
+    int getStackSize() const;
     int getDeckSize();
 
     std::vector<card> getStack();

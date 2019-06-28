@@ -13,9 +13,12 @@ class boardController
     bool finished = false;
     solitaireBoard & board;
     boardView & view;
+    talia & tal; //talia stworzona juz w klasie talia
+    segregacja & seg; // tablica tablicy kart do odkładania
+    plansza & pla;
 
 public:
-    boardController(solitaireBoard & b, boardView & v);
+    boardController(solitaireBoard & b, boardView & v, talia & t, plansza & p, segregacja & s);
     void handleEvent(sf::Event & event); //obsługa zdarzen
 
     bool isFinished() const { return finished; }

@@ -16,14 +16,14 @@ class segregacja : public card
     std::vector<card> segregacja_pik;
 public:
     segregacja();
-    void put_card(std::vector<card>, std::vector<card>); /// odkładasz push.backiem, wklejasz kartę
-    void take_card(std::vector<card>); /// zabierasz popbackiem
+    void put_card(std::vector<card> &, std::vector<card> &); /// odkładasz push.backiem, wklejasz kartę
+    void take_card(std::vector<card> &); /// zabierasz popbackiem
 
-    bool isOneHigher(std::vector<card>, std::vector<card>); // Do segregacji
-    bool isOneLower(std::vector<card>, std::vector<card>); // Do planszy
-    int lengthOf(std::vector<card>);
+    const bool isOneHigher(const std::vector<card> &,const std::vector<card> &); // Do segregacji
+    const bool isOneLower(const std::vector<card> &,const std::vector<card> &); // Do planszy
+    const int lengthOf(const std::vector<card> &);
 
-    std::vector<card> wybierz_pole(int);
+    std::vector<card> & wybierz_pole(const int &);
 
 
     bool isComplete();

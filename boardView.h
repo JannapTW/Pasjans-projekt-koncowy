@@ -36,7 +36,7 @@ class boardView
 public:
     explicit boardView(solitaireBoard & b, talia & t, plansza & p, segregacja & s);
     void draw(sf::RenderWindow & win);
-    sf::Sprite getCard(cardFace);
+    sf::Sprite & getCard(const std::vector<card> & baza, const int & n);
 
 };
 

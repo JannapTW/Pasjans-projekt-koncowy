@@ -71,20 +71,20 @@ void talia::dealCard()
     }
 }
 
-void talia::moveCard(std::vector<card> vec) //zdjęcie karty ze stack'u i wrzucenie jej do planszy
+void talia::moveCard(std::vector<card> & vec) //zdjęcie karty ze stack'u i wrzucenie jej do planszy
 {
     vec.push_back(stack[lengthOf(stack)]);
     stack.pop_back();
 }
 
-int talia::lengthOf(std::vector<card> baza)
+const int talia::lengthOf(const std::vector<card> & baza)
 {
-    if(baza.size()>0)
+    if(!baza.empty())
         return baza.size() - 1;
     return 0;
 }
 
-int talia::getStackSize()
+int talia::getStackSize() const
 {
     return stack.size();
 }

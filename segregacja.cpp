@@ -4,11 +4,9 @@
 
 #include "segregacja.h"
 segregacja::segregacja()
-{
+{}
 
-}
-
-void segregacja::put_card(std::vector<card> baza, std::vector<card> vec)
+void segregacja::put_card( std::vector<card> & baza, std::vector<card> & vec)
 {
 
     if(isOneLower(baza, vec) && (baza[lengthOf(baza)].isSame(vec[lengthOf(vec)])))
@@ -19,23 +17,19 @@ void segregacja::put_card(std::vector<card> baza, std::vector<card> vec)
     //deck.push_back(card(liczba[i % 13], symbol[i / 13]));
 }
 
-void segregacja::take_card(std::vector<card> baza)
+void segregacja::take_card(std::vector<card> & baza)
 {
     baza.pop_back();
 }
 
-bool segregacja::isOneHigher(std::vector<card> baza, std::vector<card> vec) // do odkładania ze stosu
+const bool segregacja::isOneHigher(const std::vector<card> & baza,const std::vector<card> & vec) // do odkładania ze stosu
 {
-    if(baza[lengthOf(baza)].card_to_number() == (vec[lengthOf(vec)].card_to_number() + 1))
-        return true;
-    return false;
+    return baza[lengthOf(baza)].card_to_number() == (vec[lengthOf(vec)].card_to_number() + 1);
 }
 
-bool segregacja::isOneLower(std::vector<card> baza, std::vector<card> vec) // do odkładania na stos
+const bool segregacja::isOneLower(const std::vector<card> & baza,const std::vector<card> & vec) // do odkładania na stos
 {
-    if(baza[lengthOf(baza)].card_to_number() == (vec[lengthOf(vec)].card_to_number() - 1))
-        return true;
-    return false;
+    return baza[lengthOf(baza)].card_to_number() == (vec[lengthOf(vec)].card_to_number() - 1);
 }
 
 bool segregacja::isComplete() //is the game finished
@@ -44,11 +38,12 @@ bool segregacja::isComplete() //is the game finished
             && (segregacja_pik.size() == 12);
 }
 
-int segregacja::lengthOf(std::vector<card> baza)
+const int segregacja::lengthOf(const std::vector<card> & baza)
 {
     return baza.size() - 1;
 }
-std::vector<card> segregacja::wybierz_pole(int n)
+
+std::vector<card> & segregacja::wybierz_pole(const int & n)
 {
     switch(n)
     {

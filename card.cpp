@@ -18,12 +18,12 @@ card::card()
     liczba = "liczba";
 }
 
-const std::string card::get_symbol()
+const std::string card::get_symbol() const
 {
     return card::symbol;
 }
 
-const std::string card::get_liczba()
+const std::string card::get_liczba() const
 {
     return card::liczba;
 }
@@ -33,7 +33,7 @@ bool card::isEmpty()
     return card::symbol == "empty" && card::liczba == "empty";
 }
 
-const int card::card_to_number() //0-12
+int card::card_to_number() const //0-12
 {
     int x;
     if(this->get_liczba() == "as")

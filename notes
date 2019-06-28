@@ -71,3 +71,8 @@ Co mogę wykorzystać do view by wydobyc info o karcie?
 3.
 
 odczytywanie kart z nazw biorą po prostu długośc każdego z wektorów
+
+
+
+rozpiszę na kartce co każda klasa powinna robić
+NIE ZAPOMINAJ OD REFERENCE LUB CONST REFERENCE

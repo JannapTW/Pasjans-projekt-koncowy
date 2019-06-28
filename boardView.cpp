@@ -189,63 +189,113 @@ boardView::boardView(solitaireBoard & b, talia & t, plansza & p, segregacja & s)
     y_orig = 100;
 }
 
-sf::Sprite boardView::getCard(cardFace karta)
+sf::Sprite & boardView::getCard(const std::vector<card> & baza, const int & n)
 {
-    switch(karta)
-    {
-    case 0:return as_serce;
-    case 1:return dwojka_serce;
-    case 2:return trojka_serce;
-    case 3:return czworka_serce;
-    case 4:return piatka_serce;
-    case 5:return szostka_serce;
-    case 6:return siodemka_serce;
-    case 7:return osemka_serce;
-    case 8:return dziewiatka_serce;
-    case 9:return dziesiatka_serce;
-    case 10:return walet_serce;
-    case 11:return dama_serce;
-    case 12:return krol_serce;
-    case 13:return as_karo;
-    case 14:return dwojka_karo;
-    case 15:return trojka_karo;
-    case 16:return czworka_karo;
-    case 17:return piatka_karo;
-    case 18:return szostka_karo;
-    case 19:return siodemka_karo;
-    case 20:return osemka_karo;
-    case 21:return dziewiatka_karo;
-    case 22:return dziesiatka_karo;
-    case 23:return walet_karo;
-    case 24:return dama_karo;
-    case 25:return krol_karo;
-    case 26:return as_trefl;
-    case 27:return dwojka_trefl;
-    case 28:return trojka_trefl;
-    case 29:return czworka_trefl;
-    case 30:return piatka_trefl;
-    case 31:return szostka_trefl;
-    case 32:return siodemka_trefl;
-    case 33:return osemka_trefl;
-    case 34:return dziewiatka_trefl;
-    case 35:return dziesiatka_trefl;
-    case 36:return walet_trefl;
-    case 37:return dama_trefl;
-    case 38:return krol_trefl;
-    case 39:return as_pik;
-    case 40:return dwojka_pik;
-    case 41:return trojka_pik;
-    case 42:return czworka_pik;
-    case 43:return piatka_pik;
-    case 44:return szostka_pik;
-    case 45:return siodemka_pik;
-    case 46:return osemka_pik;
-    case 47:return dziewiatka_pik;
-    case 48:return dziesiatka_pik;
-    case 49:return walet_pik;
-    case 50:return dama_pik;
-    case 51:return krol_pik;
-    }
+    if(baza[n].get_symbol() == "serce" && baza[n].get_liczba() == "as")
+        return as_serce;
+    if(baza[n].get_symbol() == "serce" && baza[n].get_liczba() == "dwojka")
+        return dwojka_serce;
+    if(baza[n].get_symbol() == "serce" && baza[n].get_liczba() == "trojka")
+        return trojka_serce;
+    if(baza[n].get_symbol() == "serce" && baza[n].get_liczba() == "czworka")
+        return czworka_serce;
+    if(baza[n].get_symbol() == "serce" && baza[n].get_liczba() == "piatka")
+        return piatka_serce;
+    if(baza[n].get_symbol() == "serce" && baza[n].get_liczba() == "szostka")
+        return szostka_serce;
+    if(baza[n].get_symbol() == "serce" && baza[n].get_liczba() == "siodemka")
+        return siodemka_serce;
+    if(baza[n].get_symbol() == "serce" && baza[n].get_liczba() == "osemka")
+        return osemka_serce;
+    if(baza[n].get_symbol() == "serce" && baza[n].get_liczba() == "dziewiatka")
+        return dziewiatka_serce;
+    if(baza[n].get_symbol() == "serce" && baza[n].get_liczba() == "dziesiatka")
+        return dziesiatka_serce;
+    if(baza[n].get_symbol() == "serce" && baza[n].get_liczba() == "walet")
+        return walet_serce;
+    if(baza[n].get_symbol() == "serce" && baza[n].get_liczba() == "dama")
+        return dama_serce;
+    if(baza[n].get_symbol() == "serce" && baza[n].get_liczba() == "krol")
+        return krol_serce;
+    if(baza[n].get_symbol() == "karo" && baza[n].get_liczba() == "as")
+        return as_karo;
+    if(baza[n].get_symbol() == "karo" && baza[n].get_liczba() == "dwojka")
+        return dwojka_karo;
+    if(baza[n].get_symbol() == "karo" && baza[n].get_liczba() == "trojka")
+        return trojka_karo;
+    if(baza[n].get_symbol() == "karo" && baza[n].get_liczba() == "czworka")
+        return czworka_karo;
+    if(baza[n].get_symbol() == "karo" && baza[n].get_liczba() == "piatka")
+        return piatka_karo;
+    if(baza[n].get_symbol() == "karo" && baza[n].get_liczba() == "szostka")
+        return szostka_karo;
+    if(baza[n].get_symbol() == "karo" && baza[n].get_liczba() == "siodemka")
+        return siodemka_karo;
+    if(baza[n].get_symbol() == "karo" && baza[n].get_liczba() == "osemka")
+        return osemka_karo;
+    if(baza[n].get_symbol() == "karo" && baza[n].get_liczba() == "dziewiatka")
+        return dziewiatka_karo;
+    if(baza[n].get_symbol() == "karo" && baza[n].get_liczba() == "dziesiatka")
+        return dziesiatka_karo;
+    if(baza[n].get_symbol() == "karo" && baza[n].get_liczba() == "walet")
+        return walet_karo;
+    if(baza[n].get_symbol() == "karo" && baza[n].get_liczba() == "dama")
+        return dama_karo;
+    if(baza[n].get_symbol() == "karo" && baza[n].get_liczba() == "krol")
+        return krol_karo;
+    if(baza[n].get_symbol() == "trefl" && baza[n].get_liczba() == "as")
+        return as_trefl;
+    if(baza[n].get_symbol() == "trefl" && baza[n].get_liczba() == "dwojka")
+        return dwojka_trefl;
+    if(baza[n].get_symbol() == "trefl" && baza[n].get_liczba() == "trojka")
+        return trojka_trefl;
+    if(baza[n].get_symbol() == "trefl" && baza[n].get_liczba() == "czworka")
+        return czworka_trefl;
+    if(baza[n].get_symbol() == "trefl" && baza[n].get_liczba() == "piatka")
+        return piatka_trefl;
+    if(baza[n].get_symbol() == "trefl" && baza[n].get_liczba() == "szostka")
+        return szostka_trefl;
+    if(baza[n].get_symbol() == "trefl" && baza[n].get_liczba() == "siodemka")
+        return siodemka_trefl;
+    if(baza[n].get_symbol() == "trefl" && baza[n].get_liczba() == "osemka")
+        return osemka_trefl;
+    if(baza[n].get_symbol() == "trefl" && baza[n].get_liczba() == "dziewiatka")
+        return dziewiatka_trefl;
+    if(baza[n].get_symbol() == "trefl" && baza[n].get_liczba() == "dziesiatka")
+        return dziesiatka_trefl;
+    if(baza[n].get_symbol() == "trefl" && baza[n].get_liczba() == "walet")
+        return walet_trefl;
+    if(baza[n].get_symbol() == "trefl" && baza[n].get_liczba() == "dama")
+        return dama_trefl;
+    if(baza[n].get_symbol() == "trefl" && baza[n].get_liczba() == "krol")
+        return krol_trefl;
+    if(baza[n].get_symbol() == "pik" && baza[n].get_liczba() == "as")
+        return as_pik;
+    if(baza[n].get_symbol() == "pik" && baza[n].get_liczba() == "dwojka")
+        return dwojka_pik;
+    if(baza[n].get_symbol() == "pik" && baza[n].get_liczba() == "trojka")
+        return trojka_pik;
+    if(baza[n].get_symbol() == "pik" && baza[n].get_liczba() == "czworka")
+        return czworka_pik;
+    if(baza[n].get_symbol() == "pik" && baza[n].get_liczba() == "piatka")
+        return piatka_pik;
+    if(baza[n].get_symbol() == "pik" && baza[n].get_liczba() == "szostka")
+        return szostka_pik;
+    if(baza[n].get_symbol() == "pik" && baza[n].get_liczba() == "siodemka")
+        return siodemka_pik;
+    if(baza[n].get_symbol() == "pik" && baza[n].get_liczba() == "osemka")
+        return osemka_pik;
+    if(baza[n].get_symbol() == "pik" && baza[n].get_liczba() == "dziewiatka")
+        return dziewiatka_pik;
+    if(baza[n].get_symbol() == "pik" && baza[n].get_liczba() == "dziesiatka")
+        return dziesiatka_pik;
+    if(baza[n].get_symbol() == "pik" && baza[n].get_liczba() == "walet")
+        return walet_pik;
+    if(baza[n].get_symbol() == "pik" && baza[n].get_liczba() == "dama")
+        return dama_pik;
+    if(baza[n].get_symbol() == "pik" && baza[n].get_liczba() == "krol")
+        return krol_pik;
+
 }
 
 void boardView::draw(sf::RenderWindow & win)
@@ -266,10 +316,15 @@ void boardView::draw(sf::RenderWindow & win)
         win.draw(hidden);
     }
 
-    if(!tal.getStack().empty())
+    if(tal.getStack().empty())
     {
-        getCard(board.getCardEnum(tal.getStack(), tal.lengthOf(tal.getStack()))).setPosition(x_orig + 100, y_orig);
-        win.draw(getCard(board.getCardEnum(tal.getStack(), tal.lengthOf(tal.getStack()))));
+        empty.setPosition(x_orig + 100, y_orig);
+        win.draw(empty);
+    }
+    else
+    {
+        getCard(tal.getStack(), tal.lengthOf(tal.getStack())).setPosition(x_orig + 100, y_orig);
+        win.draw(getCard(tal.getStack(), tal.lengthOf(tal.getStack())));
     }
 
     for (int j = 1 ; j<8 ; ++j) //dla planszy
@@ -280,8 +335,13 @@ void boardView::draw(sf::RenderWindow & win)
         {
             if(!pla.wybierz_pole(j).empty())
             {
-                (getCard(board.getCardEnum(pla.wybierz_pole(j), i))).setPosition(x_orig + 200 + (i * 100), 100);
-                win.draw(getCard(board.getCardEnum(pla.wybierz_pole(j), i)));
+                getCard(pla.wybierz_pole(j), i).setPosition(x_orig + 200 + (i * 100), 200);
+                win.draw(getCard(pla.wybierz_pole(j), i));
+            }
+            else if(pla.wybierz_pole(j).empty())
+            {
+                empty.setPosition(x_orig + 200 + (i * 100), 200);
+                win.draw(empty);
             }
         }
     }
@@ -294,8 +354,13 @@ void boardView::draw(sf::RenderWindow & win)
         {
             if(!seg.wybierz_pole(j).empty())
             {
-                (getCard(board.getCardEnum(seg.wybierz_pole(j), i))).setPosition(x_orig+800,100 + (100*i));
-                win.draw(getCard(board.getCardEnum(seg.wybierz_pole(j), i)));
+                getCard(seg.wybierz_pole(j), i).setPosition(x_orig + 800, 100 + (100 * i));
+                win.draw(getCard(seg.wybierz_pole(j), i));
+            }
+            else if(seg.wybierz_pole(j).empty())
+            {
+                empty.setPosition(x_orig + 800, 100 + (100 * i));
+                win.draw(empty);
             }
         }
     }

@@ -23,15 +23,12 @@ int main()
 
     //Wygląd gry
     boardView v(b,t,p,s);
-    cout << "board view zainicjalizowany";
 
     //Sterowanie grą
-    boardController bc(b, v);
-    cout << "Kontroler zainicjalizowany";
+    boardController bc(b, v, t, p ,s);
 
     //Intro
     introView iv;
-    cout << "intro view zainicjalizowany";
 
 
     //sterowanie intrem
